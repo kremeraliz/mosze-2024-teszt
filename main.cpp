@@ -29,5 +29,7 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+
+    std::cout << "Ez egy szöveg más githubjáról commitolva!" << std:endl;
     return 0;
 }
