@@ -4,19 +4,26 @@ constexpr int N_ELEMENTS = 100;
 
 int main()
 {
-    int *b = new int[NELEMENTS];
-    std::cout << '1-100 ertekek duplazasa'
-    for (int i = 0;)
+    int *b = new int[N_ELEMENTS];
+    /* változó neve rossul volt írva*/
+    std::cout << '1-100 ertekek duplazasa';
+    /*hiányzó ; */
+    for (int i = 0; i < N_ELEMENTS; i++)
+    /*hiányzó ciklus feltétel és növelés*/
+
     {
         b[i] = i * 2;
     }
     for (int i = 0; i; i++)
     {
-        std::cout << "Ertek:"
+        std::cout << "Ertek:";
+        /*hiányzó ; */
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag;
-    for (int i = 0; i < N_ELEMENTS, i++)
+    int atlag = 0;
+    /*inicializálás hiánya*/
+    for (int i = 0, i < N_ELEMENTS, i++)
+    /*; helyett ,*/
     {
         atlag += b[i]
     }
